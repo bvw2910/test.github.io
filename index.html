@@ -9,8 +9,9 @@
 			background-color: black;
 		}
 
-		.title{
-			display: inline;
+		#title{
+			margin-top: 3%;
+			margin-bottom: 5%;
 			text-align: center;
 			font-family:"lucida console"; 
 			
@@ -122,13 +123,26 @@
 		{
 		text-decoration:none; <!--remove o sublinhado dos links-->
 		}
+
+		#container{
+		margin-left: 5%;
+		margin-right: 15%; 	
+		}
+
+		#maior-menor{
+		margin-right: 100%;
+		margin-left: auto;	
+		width: 550px;
+		}
+
 		</style>
 
 	</head>
 
 	<body>
-	<h1 class="title" id="menor"> {< </h1> <h1 class= "title" id="title1"> HTML </h1> <h1 class="title" id="titlebarra"> / </h1> <h1 class="title" id="title2"> CSS </h1> <h1 class="title" id="maior"> >} </h1>
-
+	<div id="title">	
+	<h1 id="menor"> {< </h1> <h1 id="title1"> HTML </h1> <h1 id="titlebarra"> / </h1> <h1 id="title2"> CSS </h1> <h1 id="maior"> >} </h1></div>
+	<div id="container">
 	<h2>< ! -- Introdução HTML --></h2>
 	<h3 id="fund">fundamentos<h3 id="abre">{</h3></h3>
 	<p>A estrutura básica e necessária para a criação de uma página web envolve a declaração das tags <span class="tag">!DOCTYPE html </span>para o navegador identificar a linguagem usada pela página; <span class="tag">html</span>; <span class="tag">meta charset</span> para indicar qual a codificação de caracteres utilizada; <span class="tag">head</span> e <span class="tag">title</span> para formar o cabeçalho; <span class="tag">body</span> e <span class="tag">p</span> para inserir conteúdo.</p>
@@ -158,7 +172,7 @@
 	<h3 id="imgs">inserção de imagens<h3 id="abre">{</h3></h3>
 	<p>Utiliza- se a tag <span class="tag">img src=""</span> seguida do link do endereço url da imagem a ser postada, dentro da tag ainda é possível incluir informações sobre do que se trata a imagem com a tag <span class="tag">alt=""</span> e ajustar o tamanho da própria com as tags <span class="tag">width=""</span> (altura) / <span class="tag">height=""</span> (largura)</p>
 	
-	<img src="https://rockcontent.com/wp-content/uploads/2019/09/html-1-1280x720.png" alt="sinais de menor e maior usado nas tags de HTML"/>
+	<img id="maior-menor" src="https://rockcontent.com/wp-content/uploads/2019/09/html-1-1280x720.png" alt="sinais de menor e maior usado nas tags de HTML"/>
 		<br><br>
 	<h3 id="fecha">}</h3>	
 	<h2 id="intro"> < ! -- Introdução CSS --></h2>
@@ -231,6 +245,7 @@
 	<ul>
 		<li><strong>Família Genérica</strong> - Um grupo de famílias fonte com uma estética similar (como Serif ou Monospace).</li>
 		<li><strong>Família Fonte</strong> - Uma família tipográfica específica (como Arial ou Georgia).</li><br>
+	</ul>
 	<table>
 		<thead>
 			<tr>
@@ -282,7 +297,7 @@
 	<h3 class="cs">herança<h3 id="abre">{</h3></h3>
 	<p>Herança diz respeito aos atributos que automaticamente são aplicados aos elementos que uma tag engloba. No entanto, caso haja necessidade de realizar alguma alteração em pontos específicos, há recursos que possiilitam a edição.
 	<h3 id="fecha">}</h3>
-
+	</div>
 
 
 
