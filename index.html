@@ -132,6 +132,8 @@
 		#container{
 		margin-left: 5%;
 		margin-right: 15%; 	
+		border-left: 1px dotted rgb(255,255,255)
+
 		}
 
 		#maior-menor{
@@ -157,7 +159,7 @@
 	<div id="container">
 	<h2>< ! -- Introdução HTML --></h2>
 	<h3 id="fund">fundamentos<h3 id="abre">{</h3></h3>
-	<p>A estrutura básica e necessária para a criação de uma página web envolve a declaração das tags <span class="tag">!DOCTYPE html </span>para o navegador identificar a linguagem usada pela página; <span class="tag">html</span>; <span class="tag">meta charset</span> para indicar qual a codificação de caracteres utilizada; <span class="tag">head</span> e <span class="tag">title</span> para formar o cabeçalho; <span class="tag">body</span> e <span class="tag">p</span> para inserir conteúdo.</p>
+	<p>A estrutura básica e necessária para a criação de uma <span class="p-chave">página web</span> envolve a declaração das tags <span class="tag">!DOCTYPE html </span>para o <span class="p-chave">navegador</span> identificar a <span class="p-chave">linguagem</span> usada pela página; <span class="tag">html</span>; <span class="tag">meta charset</span> para indicar qual a codificação de caracteres utilizada; <span class="tag">head</span> e <span class="tag">title</span> para formar o cabeçalho; <span class="tag">body</span> e <span class="tag">p</span> para inserir conteúdo.</p>
 	<h3 id="fecha">}</h3>
 	<br><br>
 	<h3>algumas tags<h3 id="abre">{</h3></h3>
@@ -172,27 +174,27 @@
 
 	<li><h4 id="listas"><p>Criação de Listas:</p></h4></li>
 		<ul>
-			<li> Usa- se a tag <span class="tag">ul</span> (unordered list) para uma lista desordenada, seguida pela tag <span class="tag">li</span> (list iten)</li>
+			<li> Usa- se a <span class="p-chave">tag</span> <span class="tag">ul</span> (unordered list) para uma <span class="p-chave">lista desordenada</span>, seguida pela tag <span class="tag">li</span> (list iten)</li>
 		</ul>
 
 		<ol>
-			<li> Usa- se a tag <span class="tag">ol</span> (ordered list) para uma lista ordenada, seguida pela tag <span class="tag">li</span> (list iten)</li>
+			<li> Usa- se a tag <span class="tag">ol</span> (ordered list) para uma <span class="p-chave">lista ordenada</span>, seguida pela tag <span class="tag">li</span> (list iten)</li>
 		</ol>
 		</ul>
 		<h3 id="fecha">}</h3>
 	<br><br>
 	<h3 id="imgs">inserção de imagens<h3 id="abre">{</h3></h3>
-	<p>Utiliza- se a tag <span class="tag">img src=""</span> seguida do link do endereço url da imagem a ser postada, dentro da tag ainda é possível incluir informações sobre do que se trata a imagem com a tag <span class="tag">alt=""</span> e ajustar o tamanho da própria com as tags <span class="tag">width=""</span> (altura) / <span class="tag">height=""</span> (largura)</p>
+	<p>Utiliza- se a <span class="p-chave">tag</span> <span class="tag">img src=""</span> seguida do link do endereço <span class="p-chave">url</span> da imagem a ser postada, dentro da tag ainda é possível incluir informações sobre do que se trata a imagem com a tag <span class="tag">alt=""</span> e ajustar o tamanho da própria com as tags <span class="tag">width=""</span> (altura) / <span class="tag">height=""</span> (largura)</p>
 	
 	<img id="maior-menor" src="https://rockcontent.com/wp-content/uploads/2019/09/html-1-1280x720.png" alt="sinais de menor e maior usado nas tags de HTML"/>
 		<br><br>
 	<h3 id="fecha">}</h3>	
 	<h2 id="intro"> < ! -- Introdução CSS --></h2>
-	<p>O CSS é a ferramenta que possibilita o ajuste estético da página através de comandos, interagindo com as marcações da arquitetura fornecida pela codificação em HTML. Os seletores utilizados pela linguagem são então combinados com as tags para a realização de funções específicas.</p>
+	<p>O CSS é a ferramenta que possibilita o ajuste estético da página através de <span class="p-chave">comandos</span>, interagindo com as marcações da <span class="p-chave">arquitetura</span> fornecida pela <span class="p-chave">codificação</span> em <span class="p-chave">HTML</span>. Os <span class="p-chave">seletores</span> utilizados pela linguagem são então combinados com as tags para a realização de <span class="p-chave">funções</span> específicas.</p>
 	<br><br>
 
 	<h3 class="cs" id="sid">seleção por id<h3 id="abre">{</h3></h3>
-	<p>A função de seleção com o id é capaz de criar uma diferenciação na nomeação de tags do mesmo tipo, facilitando sua identificação e possibilitando formatações específicas para seu conteúdo. É uma função que exige exclusividade de nomenclatura para que não ocorra erros.Ex:<br>
+	<p>A função de seleção com o <span class="p-chave">id</span> é capaz de criar uma diferenciação na nomeação de tags do mesmo tipo, facilitando sua identificação e possibilitando <span class="p-chave">formatações</span> específicas para seu conteúdo. É uma função que exige exclusividade de nomenclatura para que não ocorra erros.Ex:<br>
 	<span class="tag">< h1 id="primeira-palavra > </span><br>
 	** OBS: Não é possível nomear a id com espaços em branco, é costume utilizar o traço para isso **</p> 
 	<h3 id="fecha">}</h3>
@@ -206,18 +208,18 @@
 	<h2>< ! -- Mais Tags HTML --></h2>
 
 	<h3 id="lks">links html<h3 id="abre">{</h3></h3>
-	<p>HTML é uma linguagem de marcação criada para se comunicar com outras linguagens através do servidor, característica que o nomeia como Hiper Texto, pois se utiliza de hiper links para que essa comunicação ocorra.<br>
-	A tag utilizada para direcionar ao link é a tag <span class="tag">a</span> de âncora, seguida por <span class="tag">href=""</span> de hiper referência, que contêm a URL absoluta (indicando o protocolo, domínio e local específico) ou URl relativa (indica o domínio e página específica, mas encontra-se no site em uso). Dentre essa tag e a de fechamento inclui- se o título do link. Outro recurso que pode ser utilizado é a ferramenta <span class="tag">target=""</span> para que o link abra em uma nova aba. Ex:<br><br>
+	<p>HTML é uma <span class="p-chave">linguagem de marcação</span> criada para se comunicar com outras linguagens através do <span class="p-chave">servidor</span>, característica que o nomeia como <span class="p-chave">Hiper Texto</span>, pois se utiliza de <span class="p-chave">hiper links</span> para que essa comunicação ocorra.<br>
+	A tag utilizada para direcionar ao link é a tag <span class="tag">a</span> de <span class="p-chave">âncora</span>, seguida por <span class="tag">href=""</span> de hiper referência, que contêm a <span class="p-chave">URL absoluta</span> (indicando o <span class="p-chave">protocolo</span>, <span class="p-chave">domínio</span> e local específico) ou <span class="p-chave">URl relativa</span> (indica o domínio e página específica, mas encontra-se no site em uso). Dentre essa tag e a de fechamento inclui- se o título do link. Outro recurso que pode ser utilizado é a ferramenta <span class="tag">target=""</span> para que o link abra em uma nova aba. Ex:<br><br>
 	<a target="_blank" href="https://www.w3schools.com/">W3Schools</a> | <a target="_blank" href="http://www.csszengarden.com/"> CSS Zen Garden</a></p>
 	<h3 id="fecha">}</h3>
 	<br><br>
 	<h3>links internos html<h3 id="abre">{</h3></h3>
-	<p>O recurso de ancoragem também pode ser usado para direcionar a lugares específicos da própria página. Para isso é necessário criar um id na tag do local da página em que haverá o redirecionamento e referenciá-lo com uma <span class="tag">#</span> na frente quando for incluí-lo na tag do link. Ex:<br><br>
+	<p>O recurso de ancoragem também pode ser usado para direcionar a lugares específicos da própria página. Para isso é necessário criar um id na tag do local da página em que haverá o <span class="p-chave">redirecionamento</span> e referenciá-lo com uma <span class="tag">#</span> na frente quando for incluí-lo na tag do link. Ex:<br><br>
 	<a href="#menor">Ir para o topo</a>  </p>
 	<h3 id="fecha">}</h3>
 	<br><br>
 	<h3>tabelas<h3 id="abre">{</h3></h3>
-	<p>O modo em que são feitas será exemplificado através de uma tabela com links dos tópicos anteriores e com a descrição dos passos exibidas como comentários no código.
+	<p>O modo em que são feitas será exemplificado através de uma tabela com links dos tópicos anteriores e com a descrição dos passos exibidas como <span class="p-chave">comentários</span> no código.
 	<br><br>
 	<table> <!--Tag para criação da tabela-->
 		<thead> <!-- Tag para o título-->
@@ -253,7 +255,7 @@
 	<h2> < ! -- Propriedades de Texto CSS --></h2>
 <!-- Tirar prints da pagina conforme for alterando a aparencia para comparar-->	
 	<h3 class="cs">font-family<h3 id="abre">{</h3></h3>
-	<p>Com o CSS a formatação das fontes tornam-se mais eficientes. É possível, por exemplo, amenizar as mudanças estéticas que ocorrem entre a máquina que desenvolve o site e a que vai acessá-lo, algo que ocorre devido a falta de alguns recursos em alguma das máquinas e gera diferença na aparência das fontes. Por conta disso, é um hábito entre aqueles que desenvolvem não somente especificarem a fonte que desejam usar como também a familia/grupo em que ela se enquadra (sans-serif, cursive, fantasy, monospace, etc).</p><br>
+	<p>Com o CSS a formatação das <span class="p-chave">fontes</span> tornam-se mais eficientes. É possível, por exemplo, amenizar as mudanças estéticas que ocorrem entre a máquina que desenvolve o site e a que vai acessá-lo, algo que ocorre devido a falta de alguns recursos em alguma das máquinas e gera diferença na aparência das fontes. Por conta disso, é um hábito entre aqueles que desenvolvem não somente especificarem a fonte que desejam usar como também a <span class="p-chave">familia/grupo</span> em que ela se enquadra (sans-serif, cursive, fantasy, monospace, etc).</p><br>
 	<ul>
 		<li><strong>Família Genérica</strong> - Um grupo de famílias fonte com uma estética similar (como Serif ou Monospace).</li>
 		<li><strong>Família Fonte</strong> - Uma família tipográfica específica (como Arial ou Georgia).</li><br>
@@ -303,25 +305,25 @@
 	<h3 id="fecha">}</h3>
 	<br><br>
 	<h3 class="cs">font-size<h3 id="abre">{</h3></h3>
-	<p>O tamanho das fontes são medidos em pixels (px), no entanto, no caso dos títulos a medida é feita de modo relativo (em). Por exemplo, caso seja decidido que o tamanho da fonte usada nos parágrafos é de 11px e que a do título é de 2em, o navegador entenderá que o título deve ter 22px de tamanho. </p>
+	<p>O tamanho das fontes são medidos em <span class="p-chave">pixels</span> (px), no entanto, no caso dos títulos a medida é feita de <span class="p-chave">modo relativo</span> (em). Por exemplo, caso seja decidido que o tamanho da fonte usada nos parágrafos é de 11px e que a do título é de 2em, o <span class="p-chave">navegador</span> entenderá que o título deve ter 22px de tamanho. </p>
 	<h3 id="fecha">}</h3>
 	<br><br>
 	<h3 class="cs">herança<h3 id="abre">{</h3></h3>
-	<p>Herança diz respeito aos atributos que automaticamente são aplicados aos elementos que uma tag engloba. No entanto, caso haja necessidade de realizar alguma alteração em pontos específicos, há recursos que possiilitam a edição.
+	<p>Herança diz respeito aos atributos que automaticamente são aplicados aos elementos que uma tag engloba. No entanto, caso haja necessidade de realizar alguma alteração em pontos específicos, há recursos que possiilitam a <span class="p-chave">edição</span>.
 	<h3 id="fecha">}</h3><br><br>
 	<h2> < ! -- Ferramentas Desenvolvimento Web --></h2>
 	<h3>inspeção de html</h3><h3 id="abre">{</h3><br><br>
-	<p>Uma ferramenta muito útil disponível pelo próprio navegador é a de inspeção de código. Clicando com o botão direito em qualquer página, um menu com a opção "Exibir código fonte" ou algo do tipo, permite que a visualização do código html utilizado na página em questão.</p>
+	<p>Uma ferramenta muito útil disponível pelo próprio navegador é a de <span class="p-chave">inspeção de código</span>. Clicando com o botão direito em qualquer página, um menu com a opção "<span class="p-chave">Exibir código fonte</span>" ou algo do tipo, permite que a visualização do código html utilizado na página em questão.</p>
 	<iframe id="v1" width="560" height="315" src="https://www.youtube.com/embed/CwiRPmXhcLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 	<h3 id="fecha">}</h3>
 	<br><br>
 	<h3 class="cs">inspeção css</h3><h3 id="abre">{</h3><br><br>
-	<p>O modo de inspeção do código css utilizado por uma página é bem parecido com o utilizado para o caso do html, ou seja, é preciso clicar com o botão direito do mouse e apertar a opção "Inspecionar" (ou algo semelhante) no menu que irá aparecer. </p>
+	<p>O modo de inspeção do código css utilizado por uma página é bem parecido com o utilizado para o caso do html, ou seja, é preciso clicar com o botão direito do mouse e apertar a opção "<span class="p-chave">Inspecionar</span>" (ou algo semelhante) no menu que irá aparecer. </p>
 	<iframe id="v2" width="560" height="315" src="https://www.youtube.com/embed/Xb6ZIlYj2OY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 	<h3 id="fecha">}</h3>
 	<br><br>
 	<h3>hospedagem site</h3><h3 id="abre">{</h3><br><br>
-	<p>Colocar um site "no ar" é o mesmo que, em outras palavras, hospedar uma página em um servidor. O servidor é um tipo de computador muito potente e conectado à internet, capaz de armazenar um número alto de páginas hospedadas e dispor ao usuário que o solicita através do acesso de uma url. Caso contrário, um código desenvolvido em um editor de textos só terá sua visualização possível no navegador da própria máquina ou com o envio de todos os arquivos. A esse tipo de acesso chamamos <span class="p-chave"> local</span> de  pois não pode ser compartilhado por um sevidor <br>
+	<p>Colocar um site "no ar" é o mesmo que, em outras palavras, hospedar uma página em um servidor. O servidor é um tipo de computador muito potente e conectado à internet, capaz de armazenar um número alto de páginas hospedadas e dispor ao usuário que o solicita através do acesso de uma <span class="p-chave">url</span>. Caso contrário, um código desenvolvido em um editor de textos só terá sua visualização possível no navegador da própria máquina ou com o envio de todos os arquivos. A esse tipo de acesso chamamos <span class="p-chave"> local</span> de  pois não pode ser compartilhado por um sevidor <br>
 		Há muitas empresas <span class="p-chave">hosts</span> ou <span class="p-chave">provedoras de hospedagem</span> que fornecem esse serviço gratuitamente, como o <a target="_blank" href="https://github.com">Github</a>, além de outras pagas, como a <a target="_blank" href="https://aws.amazon.com/pt/">Amazon</a></p>. 
 	<h3 id="fecha">}</h3>
 	<br><br>
